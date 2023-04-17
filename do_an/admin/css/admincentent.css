@@ -1,0 +1,119 @@
+
+#checkhd p input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid green;
+}
+#checkhd p input:hover{
+	background: #19B3D3;
+	color: white;
+	border: none;
+}
+.quanlysp h3{
+	font-size:40px; 
+	padding-left:150px; 
+	color:#19B3D3;
+}
+.quanlysp a {
+	
+}
+.quanlysp a:hover {
+	text-decoration:underline;
+}
+
+table {
+	text-align:center;
+	width:780px;
+	height:auto;
+	border-collapse:collapse;
+}
+tr td {
+	border:1px solid green;
+}
+		
+tr.tieude_hienthi_sp td {	
+	color:white;		
+	background: green;		
+	height:30px;	
+	font-size:18px;
+}
+td.img_hienthi_sp img {
+	padding-top:5px; 
+}
+td.img_hienthi_sp h4 {
+	padding-bottom:5px;
+	font-size:14px;
+}
+
+		
+#phantrang_sp{
+	float:left;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+a button {
+	border:1px solid #cdcdcd;
+	font-size:16px;
+	height:25px;
+	cursor:pointer;
+	color:blue;
+	background:#f1f2ee;
+}
+a button:hover {
+	background: #a7a7a7;
+	color:white;
+}
+a button.trang {
+	width:100px;
+}
+a button.so {
+	width:20px;
+}
+.active_hienthi_sp a img.sua {
+	float:left;
+	margin-left:5px;
+}
+.active_hienthi_sp a img:hover {
+	width:35px; 
+	height:35px;
+}
+.active_hienthi_sp p img.delete {
+	cursor:pointer; 
+}
+a{
+	text-decoration: none;
+}
+#admincon{
+	width: 780px;
+    height: auto;
+    overflow: hidden;
+}
+#sanphammoi {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#sanphammoi table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+#sanphammoi tr td {
+    border: 1px solid #19B3D3;
+}
+#sanphammoi tr.tieudespmoi {
+    color: white;
+    background: #2de135;
+    height: 30px;
+    font-size: 18px;
+}
+#sanphammoi tr.sanphammoitheongay {
+    background: #19B3D3;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}

